@@ -579,8 +579,8 @@ function Nav() {
           <img src={logoImg} alt="Naomi Etnel" />
         </button>
         <div className="nav-links">
-          <button className="nav-link" onClick={() => scrollTo("story")}>{t("My Story", "Mijn Verhaal")}</button>
           <button className="nav-link" onClick={() => scrollTo("framework")}>The Return</button>
+          <button className="nav-link" onClick={() => scrollTo("story")}>{t("My Story", "Mijn Verhaal")}</button>
           <button className="nav-link" onClick={() => scrollTo("products")}>{t("Products", "Producten")}</button>
           <button className="nav-link" onClick={() => scrollTo("try")}>The Quiet Minute</button>
           <LangToggle />
@@ -592,8 +592,8 @@ function Nav() {
       </nav>
       {open && (
         <div className="nav-mobile">
-          <button className="nav-link" onClick={() => scrollTo("story")}>{t("My Story", "Mijn Verhaal")}</button>
           <button className="nav-link" onClick={() => scrollTo("framework")}>The Return</button>
+          <button className="nav-link" onClick={() => scrollTo("story")}>{t("My Story", "Mijn Verhaal")}</button>
           <button className="nav-link" onClick={() => scrollTo("products")}>{t("Products", "Producten")}</button>
           <button className="nav-link" onClick={() => scrollTo("try")}>The Quiet Minute</button>
           <LangToggle />
@@ -812,7 +812,7 @@ function ProductsSection() {
           <div className="product-card">
             <p className="product-tag">{t("Book", "Boek")}</p>
             <p className="product-title">I Was There, But Not Really</p>
-            <p className="product-body">{t("Written for mothers — but recognized by every woman who has ever felt lost inside her own life.", "Geschreven voor moeders — maar herkend door elke vrouw die zich ooit verloren heeft gevoeld in haar eigen leven.")}</p>
+            <p className="product-body">{t("Written for mothers — but recognized by anyone who has ever felt lost inside their own life.", "Geschreven voor moeders — maar herkend door iedereen die zich ooit verloren heeft gevoeld in het eigen leven.")}</p>
             <div className="product-links">
               <a href="https://www.amazon.com/dp/B0GWX2CQ8G" target="_blank" rel="noreferrer" style={{ textDecoration: "none" }}>
                 <button className="btn-primary" style={{ width: "100%" }}>{t("Get it on Amazon", "Koop op Amazon")}</button>
@@ -986,8 +986,8 @@ export default function App() {
       <div style={{ display: "flex", flexDirection: "column", width: "100%" }}>
         <Nav />
         <HeroSection />
-        <StorySection />
         <FrameworkSection />
+        <StorySection />
         <ProductsSection />
         <EmailSection />
         <QuietMinuteSection />
