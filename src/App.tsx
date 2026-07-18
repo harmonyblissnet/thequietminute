@@ -627,12 +627,12 @@ function HeroSection() {
       )}
       <div className="hero-divider" />
       <p style={{ fontFamily: "'Cormorant Garamond', serif", fontStyle: "italic", fontSize: "clamp(18px, 2.5vw, 24px)", fontWeight: 300, color: palette.textDark, marginBottom: 28, letterSpacing: "0.01em" }}>
-        {t("You were always her. You just forgot.", "Je was haar altijd al. Je was het alleen vergeten.")}
+        {t("Returning to yourself, one small moment at a time.", "Terugkeren naar jezelf, één klein moment tegelijk.")}
       </p>
       <p className="hero-sub">
         {t(
-          "For women who always felt out of place. The Return is the practice of coming home to yourself — one quiet moment at a time.",
-          "Voor vrouwen die zich altijd niet op hun plek voelden. The Return is de oefening van thuiskomen bij jezelf — één stil moment tegelijk."
+          "For anyone who has ever felt out of place. The Return is the practice of coming home to yourself — one quiet moment at a time.",
+          "Voor iedereen die zich ooit niet thuis voelde in de wereld. The Return is de oefening van thuiskomen bij jezelf — één stil moment tegelijk."
         )}
       </p>
       <div className="hero-cta-group">
@@ -696,7 +696,7 @@ function FrameworkSection() {
             You spend less time in survival mode
             and more time actually <em>living</em> your life.
             <br /><br />
-            For women who have spent years away from themselves — this is the way back.
+            For anyone who has spent years away from themselves — this is the way back.
           </p>
         ) : (
           <p className="fw-body">
@@ -721,7 +721,7 @@ function FrameworkSection() {
             Je brengt minder tijd door in overlevingsmodus
             en meer tijd in het werkelijk <em>leven</em> van je leven.
             <br /><br />
-            Voor vrouwen die jaren ver van zichzelf hebben doorgebracht — dit is de weg terug.
+            Voor iedereen die jaren ver van zichzelf heeft doorgebracht — dit is de weg terug.
           </p>
         )}
         <div className="pillars">
@@ -764,9 +764,9 @@ function StorySection() {
               <p className="story-p">Then, a few years ago, something shifted. I started practicing The Return — those small, deliberate moments of coming back. The morning coffee. The warmth of water in the shower. My children's faces.</p>
               <p className="story-p">Slowly, I started waking up. I started knowing myself. Loving myself.</p>
               <p className="story-p">And I finally understood: what I'd been searching for all along was myself.</p>
-              <p className="story-p">And now I'm here for the women who recognize this feeling. The ones who always felt like they were too much, or not enough, or simply somewhere in between. The ones who spent years searching for a place to belong — without realizing the place they were looking for was themselves.</p>
+              <p className="story-p">And now I'm here for anyone who recognizes this feeling. The ones who always felt like they were too much, or not enough, or simply somewhere in between. The ones who spent years searching for a place to belong — without realizing the place they were looking for was themselves.</p>
               <p className="story-p">This is where we come home.</p>
-              <p className="story-pull" style={{ fontSize: "clamp(18px, 2vw, 26px)", marginTop: 8 }}>"You were always her. You just forgot."</p>
+              <p className="story-pull" style={{ fontSize: "clamp(18px, 2vw, 26px)", marginTop: 8 }}>"Returning to yourself, one small moment at a time."</p>
             </>) : (<>
               <p className="story-p">Het grootste deel van mijn leven wist ik niet wie ik was.</p>
               <p className="story-p">Ik ben een hoogsensitieve, multigepassioneerde creatieveling. Jarenlang dacht ik dat dat het probleem was. Ik kon me niet settelen, niet beslissen, niet bedenken wat ik wilde. Ik oordeelde mezelf er eindeloos voor.</p>
@@ -775,9 +775,9 @@ function StorySection() {
               <p className="story-p">Toen, een paar jaar geleden, veranderde er iets. Ik begon The Return te beoefenen — die kleine, bewuste momenten van terugkomen. De ochtendkoffie. De warmte van water in de douche. De gezichten van mijn kinderen.</p>
               <p className="story-p">Langzaam begon ik wakker te worden. Ik begon mezelf te kennen. Mezelf lief te hebben.</p>
               <p className="story-p">En ik begreep eindelijk: wat ik de hele tijd had gezocht, was mezelf.</p>
-              <p className="story-p">En nu ben ik hier voor de vrouwen die dit gevoel herkennen. De vrouwen die altijd het gevoel hadden te veel te zijn, of niet genoeg, of gewoon ergens daartussenin. De vrouwen die jaren zochten naar een plek om bij te horen — zonder te beseffen dat de plek die ze zochten, zijzelf waren.</p>
+              <p className="story-p">En nu ben ik hier voor iedereen die dit gevoel herkent. Voor wie zich altijd te veel voelde, of niet genoeg, of gewoon ergens daartussenin. Voor wie jaren zocht naar een plek om bij te horen — zonder te beseffen dat de plek die ze zochten, zichzelf was.</p>
               <p className="story-p">Hier komen we thuis.</p>
-              <p className="story-pull" style={{ fontSize: "clamp(18px, 2vw, 26px)", marginTop: 8 }}>"Je was haar altijd al. Je was het alleen vergeten."</p>
+              <p className="story-pull" style={{ fontSize: "clamp(18px, 2vw, 26px)", marginTop: 8 }}>"Terugkeren naar jezelf, één klein moment tegelijk."</p>
             </>)}
             <p className="story-sig">— Naomi</p>
           </div>
@@ -840,8 +840,8 @@ function EmailSection() {
       </h2>
       <p className="em-body">
         {t(
-          "The 5-Day Return Reset — a free email series for women who have lost themselves along the way. Come back to yourself, one quiet moment at a time. Two minutes a day. No pressure, no programs.",
-          "De 5-Daagse Return Reset — een gratis e-mailserie voor vrouwen die zichzelf onderweg kwijt zijn geraakt. Kom terug naar jezelf, één stil moment tegelijk. Twee minuten per dag. Geen druk, geen programma's."
+          "The 5-Day Return Reset — a free email series for anyone who has lost themselves along the way. Come back to yourself, one quiet moment at a time. Two minutes a day. No pressure, no programs.",
+          "De 5-Daagse Return Reset — een gratis e-mailserie voor iedereen die zichzelf onderweg kwijt is geraakt. Kom terug naar jezelf, één stil moment tegelijk. Twee minuten per dag. Geen druk, geen programma's."
         )}
       </p>
       <div className="em-form-wrap">
@@ -856,7 +856,7 @@ function SiteFooter({ onPrivacy }: { onPrivacy: () => void }) {
   return (
     <footer className="footer">
       <p style={{ fontFamily: "'Cormorant Garamond', serif", fontStyle: "italic", fontSize: 15, fontWeight: 300, color: palette.textLight, letterSpacing: "0.02em", marginBottom: 4 }}>
-        {t("You were always her. You just forgot.", "Je was haar altijd al. Je was het alleen vergeten.")}
+        {t("Returning to yourself, one small moment at a time.", "Terugkeren naar jezelf, één klein moment tegelijk.")}
       </p>
       <p className="footer-wordmark">The Return · Naomi Etnel</p>
       <div style={{ display: "flex", gap: 24, alignItems: "center" }}>
