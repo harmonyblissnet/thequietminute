@@ -627,7 +627,7 @@ function HeroSection() {
       )}
       <div className="hero-divider" />
       <p style={{ fontFamily: "'Cormorant Garamond', serif", fontStyle: "italic", fontSize: "clamp(18px, 2.5vw, 24px)", fontWeight: 300, color: palette.textDark, marginBottom: 28, letterSpacing: "0.01em" }}>
-        {t("Returning to yourself, one small moment at a time.", "Terugkeren naar jezelf, één klein moment tegelijk.")}
+        {t("Returning to yourself, one small moment at a time.", "Returning to yourself, one small moment at a time.")}
       </p>
       <p className="hero-sub">
         {t(
@@ -777,7 +777,7 @@ function StorySection() {
               <p className="story-p">En ik begreep eindelijk: wat ik de hele tijd had gezocht, was mezelf.</p>
               <p className="story-p">En nu ben ik hier voor iedereen die dit gevoel herkent. Voor wie zich altijd te veel voelde, of niet genoeg, of gewoon ergens daartussenin. Voor wie jaren zocht naar een plek om bij te horen — zonder te beseffen dat de plek die ze zochten, zichzelf was.</p>
               <p className="story-p">Hier komen we thuis.</p>
-              <p className="story-pull" style={{ fontSize: "clamp(18px, 2vw, 26px)", marginTop: 8 }}>"Terugkeren naar jezelf, één klein moment tegelijk."</p>
+              <p className="story-pull" style={{ fontSize: "clamp(18px, 2vw, 26px)", marginTop: 8 }}>"Returning to yourself, one small moment at a time."</p>
             </>)}
             <p className="story-sig">— Naomi</p>
           </div>
@@ -856,7 +856,7 @@ function SiteFooter({ onPrivacy }: { onPrivacy: () => void }) {
   return (
     <footer className="footer">
       <p style={{ fontFamily: "'Cormorant Garamond', serif", fontStyle: "italic", fontSize: 15, fontWeight: 300, color: palette.textLight, letterSpacing: "0.02em", marginBottom: 4 }}>
-        {t("Returning to yourself, one small moment at a time.", "Terugkeren naar jezelf, één klein moment tegelijk.")}
+        {t("Returning to yourself, one small moment at a time.", "Returning to yourself, one small moment at a time.")}
       </p>
       <p className="footer-wordmark">The Return · Naomi Etnel</p>
       <div style={{ display: "flex", gap: 24, alignItems: "center" }}>
